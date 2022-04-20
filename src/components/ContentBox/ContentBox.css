@@ -1,0 +1,39 @@
+.content-box {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(244, 244, 244);
+    border: 1px solid rgb(191, 191, 191);
+}
+
+.content-box__title-button {
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    border-color: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 16px;
+}
+
+.content-box__icon {
+    font-size: 20px;
+}
+
+.content-box__title {
+    display: flex;
+}
+
+.content-box__content {
+  overflow: hidden;
+  max-height: 1000px;
+  transition: max-height 0.5s ease-in;
+}
+
+.content-box__content--colapse {
+    max-height: 0;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.content-box__paragraph {
+    padding: 8px 20px;
+}

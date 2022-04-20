@@ -1,0 +1,18 @@
+.acordeon {
+    width: 50%;
+
+}
+
+@media (max-width: 800px) {
+    .acordeon {
+        width: 80%;
+    }
+}
+
+.acordeon > .content-box:first-child {
+    border-bottom: 0px;
+}
+
+.acordeon > .content-box:last-child {
+    border-bottom: 1px solid rgb(191, 191, 191);
+}
